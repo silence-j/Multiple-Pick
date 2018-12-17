@@ -1,0 +1,52 @@
+{
+  "name": "multiple-pick",
+  "version": "1.0.0",
+  "description": "一款基于vue的多选插件 区域选择 商品选择等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "del": "rimraf dist",
+    "build": "cross-env NODE_ENV=production npm run del && webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuanHH/Multiple-Pick.git"
+  },
+  "keywords": [
+    "vue",
+    "multiple-pick",
+    "vue-multiple-pick",
+    "一款基于vue的多选插件",
+    "区域选择",
+    "商品选择等"
+  ],
+  "author": "huanghaichuan zhangjing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuanHH/Multiple-Pick/issues"
+  },
+  "homepage": "https://github.com/chuanHH/Multiple-Pick#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "vue": "^2.5.21"
+  }
+}
